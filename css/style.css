@@ -1,0 +1,771 @@
+#skip a {
+  position: absolute;
+  left: -1000px;
+  border: 1px solid orange;
+}
+
+#skip a:focus {
+  position: static;
+  left: 10px;
+}
+
+body {
+  background: #ffffff;
+  font-family: 'Poppins', sans-serif;
+  font-size: 15pt;
+  line-height: 1.5;
+}
+
+header {
+  font-size: 20pt;
+  animation-duration:4s;
+  animation-name: slidein;
+  animation-iteration-count: 1;
+}
+
+footer{
+  position: relative;
+  bottom: 0;
+  width: 100%;
+}
+
+.footer_not_working{
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+.height{
+  height: 100px;
+}
+
+
+
+.bottom_nav_link_items{
+  margin-bottom: 10px;
+}
+
+.footer_links{
+  margin-top: 10px;
+}
+
+@keyframes slidein {
+  0% {
+    margin-left: 100%;
+  }
+}
+
+
+nav li a{
+  display: block;
+  color: black;
+  padding: 5px;
+  text-decoration: none;
+  font-size: 13px;
+}
+
+#navbar{
+  overflow: hidden;
+  display: block;
+}
+
+  nav ul{
+    display: block;
+    overflow: hidden;
+    background-color: #F5F5F5;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  .nav_link_items{
+    display: block;
+    font-size: 13px;
+    padding: 8px 16px;
+    bottom: 0;
+    float: right;
+  }
+
+  .nav_link_items span{
+    font-weight: bold;
+    text-decoration: underline;
+  }
+
+  .nav_link_items:hover {
+    color: blue;
+  }
+  
+  .nav_link_items:active {
+    color: red;
+  } 
+
+  .logo{
+    float: left;
+    padding: 10px;
+    max-width: 10%;
+  }
+
+  .info{
+    text-align: center;
+    font-size: 10px;
+    padding: 30px;
+  }
+
+  .portfolio_container {
+    display: none;
+    visibility: hidden;
+  }
+  
+  .portfolio {
+    width: 100%;
+  }
+
+  .portfoliomobile{
+    max-width: 30%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 10px;
+    visibility: visible;
+  }
+
+  .quotes_grid {
+    display: grid;
+    margin:10px;
+    grid-gap: 10px;
+    text-align: center;
+    grid-template-columns: auto auto auto auto auto;
+    padding: 10px;
+    position: relative;
+    font-weight: 1000;
+  }
+
+  .quotes_grid span {
+    font-style: italic;
+  }
+
+  .grid-item1 {
+    padding: 5px;
+    font-size: 10px;
+    text-align: center;
+    grid-column-start: 1;
+    grid-column-end: 6;
+    color: blue;
+  }
+
+  .grid-item2 {
+    padding: 5px;
+    font-size: 10px;
+    text-align: center;
+    grid-column-start: 1;
+    grid-column-end: 6;
+    color: green;
+  }
+
+  .grid-item3 {
+    padding: 5px;
+    font-size: 10px;
+    text-align: center;
+    grid-column-start: 1;
+    grid-column-end: 6;
+    color: red;
+  }
+
+  .grid-item4 {
+    padding: 5px;
+    font-size: 10px;
+    text-align: center;
+    grid-column-start: 1;
+    grid-column-end: 6;
+    color: #ff1493;
+  }
+
+  .grid-item5 {
+    padding: 5px;
+    font-size: 10px;
+    text-align: center;
+    grid-column-start: 1;
+    grid-column-end: 6;
+    color: purple;
+  }
+
+  footer {
+    font-size: 5pt;
+  }
+
+  footer .nav_link_items{
+    font-size: 10pt;
+  }
+  
+  .up{
+    font-size:8pt;
+  }
+
+  .avpersonalpage{
+    max-width:60%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+  }
+  
+  .avuserquizzes {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+  }
+  
+  .avuserquiz {
+    padding: 3px;
+    max-width:10%
+  }
+
+  .activote{
+    font-size: 8px;
+    padding: 10px;
+  }
+
+  .avlogo{
+    max-width: 100px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .activote span{
+    font-weight: bold;
+  }
+
+  .avfrontimage{
+    max-width:80%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 10px;
+  }
+
+  .activote_proto{
+    font-size: 8px;
+    padding: 10px;
+  }
+
+  .photo{
+    max-width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    display: inline-block;
+  }
+
+  .photogalimages{
+    text-align: center;
+    -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+  filter: grayscale(100%);
+  }
+
+  .port_pics{
+    max-width:100%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .me{
+    max-width: 30%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 10px;
+  }
+
+  .mixtape{
+    max-width: 80%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+  }
+
+  .mixtape_bigpicture{
+    font-size: 8px;
+    padding: 10px;
+  }
+
+  .mixtape_bigpicture > ul{
+  list-style-type: none;
+  }
+
+  .mixtape_bigpicture span{
+    font-weight: bold;
+  }
+
+  .mixtape_finalwords{
+    font-size: 8px;
+    padding: 10px;
+  }
+  .mixtape_finalwords > h3{
+    font-size: 8px;
+    padding: 10px;
+    text-align: center;
+  }
+
+  .me_para1{
+    font-size: 8px;
+    padding: 10px;
+    padding-bottom: 10px;
+  }
+
+  .me_para2{
+    font-size: 8px;
+    padding: 10px;
+  }
+
+  #contactForm {
+    margin: 0 auto;
+    padding: 30px;
+}
+
+#contactForm input, textarea {
+    letter-spacing: 2px;
+    font: 200 1em/1.1em 'Poppins', sans-serif;
+    
+    color: #000;
+    background-color: #F5F5F5;
+    font-size: 10px;
+  
+    outline: none; border: none;
+ 
+    display:block;
+    margin: 0 auto;
+    padding: 1em;
+    width: 90%;
+    max-width: 400px;
+}
+
+#contactForm textarea {
+height: 150px;
+}
+
+#contactForm *:focus {
+ background-color: #C2D5de);
+}
+
+#contactForm *:hover {
+ background-color: #C2D5de;
+}
+
+::-webkit-input-placeholder {
+  color: #777;
+}
+
+:-moz-placeholder { /* Firefox 18- */
+  color: #777; 
+}
+
+::-moz-placeholder {  /* Firefox 19+ */
+color: #777; 
+}
+
+:-ms-input-placeholder {  
+   color: #777;
+}
+
+#contactForm .submitbuttons{
+  display:block;
+    margin: 0 auto;
+    padding: 1em;
+    width: 90%;
+    max-width: 400px;
+}
+
+input[type=submit]{
+  padding: 12px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+input[type=reset]{
+  padding: 12px 20px;
+  border: none;
+}
+
+.flip-card {
+  background-color: transparent;
+  width: 300px;
+  height: 450px;
+  perspective: 100px;
+  display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 10px;
+}
+
+.flip-card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.6s;
+  transform-style: preserve-3d;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+
+.flip-card:hover .flip-card-inner,
+.flip-card:focus-within .flip-card-inner,
+.flip-card:active .flip-card-inner,
+.flip-card:focus .flip-card-inner {
+  transform: rotateY(180deg);
+}
+
+.flip-card:hover .flip-card-inner {
+  transform: rotateY(180deg);
+}
+
+.flip-card-front, .flip-card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+.flip-card-front {
+  background-color: #bbb;
+  color: black;
+}
+
+.flip-card-back {
+  background-color: #FCE9dd;
+  color: black;
+  transform: rotateY(180deg);
+}
+
+.messyme{
+  max-width: 60%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 0px;
+  visibility: visible;
+}
+
+.flowergrid{
+  display: none;
+  visibility: hidden;
+}
+
+.parallax{
+  background-image: url("../images/hannahfont.png");
+  height: 100%;
+  background-attachment:fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+
+  @media screen and (min-width: 470px){
+    .nav_link_items{
+      float: right;
+      display:Inline-block;
+    padding: 50px 20px 5px 10px;  
+    }
+  
+    nav li a{
+      display: block;
+      color: black;
+      padding: 5px;
+      text-decoration: none;
+      font-size: 13px;
+    }
+  
+    #navbar{
+      overflow: hidden;
+      display: block;
+    }
+
+
+
+  }
+  
+  @media screen and (min-width: 800px){
+
+    header {
+      display: flex;
+      flex-direction:row;
+      align-items: left;
+      justify-content: space-between;
+      font-size: 80pt;
+    }
+
+    .info{
+      font-size: 20px;
+      padding: 60px;
+    }
+  
+    .portfolio_container {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding-bottom: 30px;
+      visibility: visible;
+    }
+
+    .portfoliomobile{
+      display: none;
+      visibility: hidden;
+    }
+
+  .quotes_grid {
+    display: grid;
+    margin:40px;
+    grid-gap: 40px;
+    text-align: center;
+    grid-template-columns: auto auto auto auto auto;
+    padding: 40px;
+    position: relative;
+    font-weight: 1000;
+  }
+
+  .grid-item1 {
+    padding: 20px;
+    font-size: 20px;
+    text-align: center;
+    grid-column-start: 1;
+    grid-column-end: 3;
+  }
+
+  .grid-item2 {
+    padding: 20px;
+    font-size: 20px;
+    text-align: center;
+    grid-column-start: 3;
+    grid-column-end: 5;
+  }
+
+  .grid-item3 {
+    padding: 20px;
+    font-size: 20px;
+    text-align: center;
+    grid-column-start: 2;
+    grid-column-end: 4;
+  }
+
+  .grid-item4 {
+    padding: 20px;
+    font-size: 20px;
+    text-align: center;
+    grid-column-start: 1;
+    grid-column-end: 3;
+  }
+
+  .grid-item5 {
+    padding: 20px;
+    font-size: 20px;
+    text-align: center;
+    grid-column-start: 3;
+    grid-column-end: 5;
+  }
+
+
+.flip-card {
+  background-color: transparent;
+  width: 700px;
+  height: 950px;
+  perspective: 100px;
+  display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 10px;
+}
+
+.photo{
+  max-width: 30%;
+  margin-left: auto;
+  margin-right: auto;
+  display: inline-block;
+}
+
+.flowergrid {
+  display: grid;
+  text-align: center;
+  grid-template-columns: auto auto auto auto auto;
+  position: relative;
+  justify-content: center;
+  visibility: visible;
+}
+
+.gridflower1 {
+  padding: 60px;
+  text-align: center;
+  grid-column-start: 1;
+  grid-column-end: 2;
+  grid-row-start: 1;
+  grid-row-end: 1;
+}
+
+.gridflower2 {
+  padding: 60px;
+  text-align: center;
+  grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row-start: 2;
+  grid-row-end: 2;
+}
+
+.gridflower3 {
+  padding: 60px;
+  text-align: center;
+  grid-column-start: 3;
+  grid-column-end: 4;
+  grid-row-start: 1;
+  grid-row-end: 1;
+}
+
+.gridflower4 {
+  padding: 60px;
+  text-align: center;
+  grid-column-start: 1;
+  grid-column-end: 2;
+  grid-row-start: 2;
+  grid-row-end: 2;
+}
+
+.gridflower5 {
+  padding: 60px;
+  text-align: center;
+  grid-column-start: 3;
+  grid-column-end: 4;
+  grid-row-start: 2;
+  grid-row-end: 2;
+}
+
+.gridflower6 {
+  padding: 60px;
+  text-align: center;
+  grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row-start: 1;
+  grid-row-end: 1;
+}
+
+.messyme{
+  display: none;
+  visibility: hidden;
+}
+
+.avpersonalpage{
+  max-width:60%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 10px;
+}
+
+.avuserquizzes {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  padding-bottom: 60px;
+}
+
+.avuserquiz {
+  padding: 3px;
+  max-width:20%
+}
+
+.activote{
+  font-size: 15px;
+  padding-bottom: 30px;
+  padding-left: 20%;
+  padding-right: 20%;
+}
+
+.avlogo{
+  max-width: 1000px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 30px;
+}
+
+.activote span{
+  font-weight: bold;
+}
+
+.avfrontimage{
+  max-width:80%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 10px;
+}
+
+.activote_proto{
+  font-size: 15px;
+  padding-bottom: 60px;
+  padding-left: 20%;
+  padding-right: 20%;
+}
+
+.port_pics{
+  max-width:100%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 30px;
+}
+
+.mixtape_bigpicture{
+  font-size: 15px;
+  padding-left: 20%;
+  padding-right: 20%;
+}
+
+.mixtape_bigpicture > ul{
+list-style-type: none;
+}
+
+.mixtape_bigpicture span{
+  font-weight: bold;
+}
+
+.mixtape_finalwords{
+  font-size: 15px;
+  padding-left: 20%;
+  padding-right: 20%;
+  padding-bottom: 30px;
+}
+.mixtape_finalwords > h3{
+  font-size: 15px;
+  padding: 10px;
+  text-align: center;
+}
+
+.me_para1{
+  font-size: 15px;
+  padding-left: 20%;
+  padding-right: 20%;
+  padding-bottom: 10px;
+}
+
+.me_para2{
+  font-size: 15px;
+  padding-left: 20%;
+  padding-right: 20%;
+}
+
+.parallax2{
+  background-image: url("../images/activotepara.png");
+  height: 100%;
+  background-attachment:fixed;
+  background-position: center;
+  background-size: cover;
+  visibility: visible;
+}
+
+
+
+}
+
+
